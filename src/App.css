@@ -73,6 +73,12 @@ p{
   cursor: pointer;
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+  body{
+      margin-top: 50px;
+  }
+}
+
 @media (width >= 1400px){
   #root{
     gap: 200px;

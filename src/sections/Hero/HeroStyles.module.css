@@ -81,6 +81,17 @@
     gap: 20px;
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+    .description{
+        max-width: none;
+    }
+
+    .colorMode{
+        right: auto;
+    }
+    
+}
+
 @media(width >= 800px){
     .container{
         flex-direction: row-reverse;
