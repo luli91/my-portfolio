@@ -80,7 +80,7 @@ function Contact() {
                     required>
                     </textarea>
                 </div>
-                <button className='hover btn' type="submit">Submit</button>
+                <button className={styles.button} type="submit">Submit</button>
             </form>
         </section>
     )

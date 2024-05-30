@@ -35,25 +35,25 @@ input, textarea {
     color: var(--form-text-color);
 }
 
-input[type='submit'] {
+.button {
     background-color: var(--btn-color);
-        color: var(--btn-text-color);
-        border: none;
-        border-radius: 20px;
-        width: 126px;
-        height: 50px;
-        font-size: 1rem;
-        font-weight: bold;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-        margin: auto;
+    color: var(--btn-text-color);
+    border: none;
+    border-radius: 20px;
+    width: 126px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    margin: auto;
 }
 
-input[type='submit']:hover{
-    transform:scale(1.05);
+.button:hover {
+    transform: scale(1.05);
 }
 
-input[type='submit']:active{
+.button:active {
     transform: translateY(2px);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
