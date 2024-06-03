@@ -21,7 +21,7 @@ function Contact() {
         e.preventDefault();
         try {
             console.log('Enviando datos al backend:', formData);
-            await fetch('https://my-portfolio-production-0c3a.up.railway.app/api/form/insert', {
+            await fetch('http://localhost:8080/api/form/insert', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
